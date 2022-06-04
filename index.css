@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -22,7 +26,8 @@ h1 {
 .container {    
     height: 100vh;
     margin: 50px auto;
-    max-width: 700px;
+    max-width: 750px;
+    padding: 0 1.5em;
 }
 
 .lime-green {
@@ -50,20 +55,12 @@ button {
     margin: 20px auto;
 }
 
-.password-box {
-    background: #273549;
-    border-radius: 6px;
-    min-width: 180px;
-    min-height: 30px;
-    margin-bottom: 30px;
-    padding: 0px;
-}
-
 .password-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;    
+    justify-content: space-between;
+    padding-bottom: 1em;
 }
 
 .password-text {
@@ -75,8 +72,15 @@ button {
     border-radius: 6px;
     min-width: 250px;
     min-height: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding: 10px 15px;
+}
+
+@media(max-width: 380px) {
+    .password-text {
+        font-size: .8em;
+        min-width: 200px;
+    }
 }
 
 .slider {
@@ -84,5 +88,4 @@ button {
     height: 3px;
     background: #10B981;
     outline: none;
-    
 }
