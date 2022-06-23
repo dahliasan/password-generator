@@ -1,4 +1,4 @@
-👀 View the demo [here](https://fooxhd.github.io/password-generator/).
+👀 View the demo [here](https://fxhd1.github.io/password-generator/).
 
 # Overview
 This app allows users to generate 4 random passwords. Users can also specify the password length.
@@ -22,7 +22,7 @@ This is a project from the [Frontend Developer Career Path](https://scrimba.com/
 
 ## Links
 - [Solution on Scrimba](https://scrimba.com/scrim/co1ac4cc08a77dc528e906ed8)
-- [Live demo](https://fooxhd.github.io/password-generator/)
+- [Live demo](https://fxhd1.github.io/password-generator/)
 
 # Acknowledgements
 - [Frontend Developer Career Path](https://scrimba.com/learn/frontend) by Scrimba
